@@ -1,0 +1,5 @@
+package com.springboot.carz4u.web.Carz4U;
+
+public class ErrorResponseBean {
+
+}

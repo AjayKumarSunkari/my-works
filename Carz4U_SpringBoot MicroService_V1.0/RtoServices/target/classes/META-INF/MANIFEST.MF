@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: RtoServices
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Ajay
+Implementation-Vendor-Id: com.springboot.carz4u.service
+Build-Jdk: 1.8.0_241
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/RtoServices
+Created-By: Maven Integration for Eclipse
+

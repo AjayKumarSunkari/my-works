@@ -1,0 +1,26 @@
+# Service registers under this name
+# Control the InternalResourceViewResolver:
+spring:
+  application:
+    name: carz4u-web
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+      
+#Logging Settings
+logging:
+       path: D:/Ajay/workspace/Carz4U_SpringBoot MicroService_V4.0/Log Files/
+       file: Carz4U.log
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+# Disable Spring Boot's "Whitelabel" default error page, so we can use our own
+error:
+  whitelabel:
+    enabled:  false
+      

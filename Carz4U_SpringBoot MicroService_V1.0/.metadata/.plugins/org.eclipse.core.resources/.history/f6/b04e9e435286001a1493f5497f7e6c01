@@ -1,0 +1,31 @@
+### Spring properties
+# Service registers under this name
+spring:
+  -application:
+        name: carDetailsService-microservice
+  -jpa:
+        show-sql: true
+  -h2:
+     console:
+           enabled: true
+  -datasource:
+     url:jdbc:h2:mem:testdb
+     driverClassName:org.h2.Driver
+     username:sa
+     password:sa	  
+spring.application.name=carDetailsService-microservice          
+# Discovery Server Access
+eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:1111/eureka/
+
+# HTTP Server (Tomcat) Port
+server: 
+  port: 8000
+
+# Disable Spring Boot's "Whitelabel" default error page, so we can use our own
+error:
+  whitelabel:
+    enabled: false
+  

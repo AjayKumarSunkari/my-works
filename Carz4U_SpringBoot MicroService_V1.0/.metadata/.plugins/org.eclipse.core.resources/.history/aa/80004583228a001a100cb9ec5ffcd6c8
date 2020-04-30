@@ -1,0 +1,13 @@
+package com.springboot.carz4u.web.Carz4U;
+
+import org.springframework.boot.web.servlet.error.ErrorController;
+
+public class AppErrorController implements ErrorController {
+
+	@Override
+	public String getErrorPath() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

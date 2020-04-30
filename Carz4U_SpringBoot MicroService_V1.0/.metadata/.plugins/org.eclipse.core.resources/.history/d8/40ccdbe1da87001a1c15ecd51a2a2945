@@ -1,0 +1,11 @@
+package com.springboot.carz4u.web.Carz4U;
+
+import java.util.List;
+
+public class ErrorResponseBean {
+	
+	private String errorMsg = "";
+	private List<String> errorDetails = new ArrayList<>();
+	
+
+}
